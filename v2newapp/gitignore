@@ -1,0 +1,20 @@
+.gitignore
+
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# OSX
+.DS_store
+
+# log
+server.log
+
+package/
+workdir/*/_
+workdir/resources/
+
+temporary_files*
