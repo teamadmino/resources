@@ -1,0 +1,21 @@
+{
+  "application":"MyApp",
+  "description":"TeamAdmino Application",
+
+  "loginScreen": "login:login",
+
+  "publicAccess":[
+    "_admino:system/login",
+    "_admino:system/loginValidation",
+  ],
+
+  "logo": "_admino/resources/logo.png",
+
+  "settings":{},
+
+  "modules":["_admino"],
+  "datatables":[],
+  "browsers":[],
+  "customPreInitializers":[],
+  "customPostInitializers":[],
+}
