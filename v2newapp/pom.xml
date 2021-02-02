@@ -81,7 +81,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.teamadmino.application.main.Main</mainClass>
+                            <mainClass>com.teamadmino.ARTIFACT.main.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -97,7 +97,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.teamadmino.application.main.Main</mainClass>
+                            <mainClass>com.teamadmino.ARTIFACT.main.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
