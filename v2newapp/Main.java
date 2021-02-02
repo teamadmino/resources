@@ -1,4 +1,4 @@
-package com.teamadmino.application.main;
+package com.teamadmino.ARTIFACT.main;
 
 import static com.teamadmino.admino_backend.server.database.ServerMain.workdir;
 
