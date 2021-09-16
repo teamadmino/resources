@@ -1,21 +1,26 @@
 {
-  "application":"MyApp",
+  "application":"APP",
+  "company":"COMPANY",
   "description":"TeamAdmino Application",
 
-  "loginScreen": "login:login",
+  "loginScreen": "_admino:user/login",
 
   "publicAccess":[
-    "_admino:system/login",
-    "_admino:system/loginValidation",
+    "_admino:user/login",
+    "com.teamadmino.admino_backend.server.core.Login",
+    "_admino:user/loginValidation",
   ],
 
-  "logo": "_admino/resources/logo.png",
+  "logo": "APP/resources/logo.png",
 
   "settings":{},
 
   "modules":["_admino"],
   "datatables":[],
   "browsers":[],
-  "customPreInitializers":[],
-  "customPostInitializers":[],
+  "customPreInitializers":[
+  ],
+  "customPostInitializers":[
+    "com.teamadmino.admino_backend.server.core.Init"
+  ],
 }

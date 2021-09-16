@@ -21,4 +21,6 @@
 
   "flagAllowUnknownElements":true,
   "flagFrontendV2":true,
+
+  "flagSkipBrowscap":true,
 }
