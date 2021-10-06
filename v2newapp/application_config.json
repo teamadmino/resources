@@ -19,6 +19,7 @@
   "datatables":[],
   "browsers":[],
   "customPreInitializers":[
+    "com.teamadmino.APP.main.PreInit"
   ],
   "customPostInitializers":[
     "com.teamadmino.admino_backend.server.core.Init"
