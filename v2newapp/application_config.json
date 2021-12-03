@@ -22,6 +22,7 @@
     "com.teamadmino.APP.main.PreInit"
   ],
   "customPostInitializers":[
-    "com.teamadmino.admino_backend.server.core.Init"
+    "com.teamadmino.admino_backend.server.core.Init",
+    "com.teamadmino.APP.main.PostInit"
   ],
 }
