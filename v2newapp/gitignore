@@ -11,7 +11,7 @@ target/
 .DS_store
 
 # log
-server.log
+server*.log
 
 package/
 workdir/*/_
